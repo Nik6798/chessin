@@ -4,8 +4,13 @@ body {
 #title {
   background-color: #4f6d7a;
 }
+#cta{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #4f6d7a;
+}
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 .download-btn {
   margin: 5% 3% 5% 0;
@@ -14,6 +19,16 @@ body {
 .feature-box {
   text-align: center;
   padding: 5%;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+#footer{
+  padding: 3% 14%;
+  text-align: center;
+  background-color: white;
 }
 
 .icon {
@@ -24,9 +39,7 @@ body {
   transform: rotate(45deg);
   transition-duration: 1s;
 }
-#features {
-  padding: 7% 15%;
-}
+
 h1 {
   color: aliceblue;
   font-family: "Montserrat", sans-serif;
@@ -39,6 +52,7 @@ h2 {
   line-height: 1.5;
   margin: 2rem auto 0 auto;
 }
+
 .nav-item {
   padding: 0 18px;
 }
@@ -54,20 +68,42 @@ h2 {
   font-size: 1.2rem;
   font-family: "Montserrat-light", sans-serif;
 }
+#pricing {
+  padding: 9% 12%;
+  text-align: center;
+}
 
+.pricing-column {
+  padding: 2% 3%;
+}
 .ss1 {
   max-width: 15%;
 }
-.carousel-item{
-padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
 #screen-shots {
-  
   background-color: #4f6d7a;
   text-align: center;
   color: #ffffff;
 }
+
 .title-image {
+  position: absolute;
   max-width: 55%;
   transform: rotate(25deg);
+  right: 30%;
+}
+@media (max-width: 990px) {
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+.ico{
+  margin:2%;
 }
